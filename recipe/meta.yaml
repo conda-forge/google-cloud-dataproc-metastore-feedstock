@@ -1,5 +1,5 @@
 {% set name = "google-cloud-dataproc-metastore" %}
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-dataproc-metastore-{{ version }}.tar.gz
-  sha256: d596a5a7706ff9fae26b2de6d1ecb611a924cabd926148fc20c87d0bd631246e
+  sha256: c86abdeaa09e6bbf683942a14d92681dd30e13b39d41e2d1356604a6c595ed40
 
 build:
   number: 0
@@ -20,8 +20,8 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.28.0,<3.0.0dev
-    - proto-plus >=1.4.0
+    - google-api-core-grpc >=1.31.5,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0
+    - proto-plus >=1.15.0
 
 test:
   imports:
