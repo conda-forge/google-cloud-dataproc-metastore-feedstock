@@ -1,5 +1,5 @@
 {% set name = "google-cloud-dataproc-metastore" %}
-{% set version = "1.11.0" %}
+{% set version = "1.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-dataproc-metastore-{{ version }}.tar.gz
-  sha256: 652c52bf5a6dfd357e2e81f407a57085215c5e01813ca2ca0569eae8db0d1cf9
+  sha256: 6d9f3fc1af822ddfa8c5471eae663cc6bdf0423fa0ca6454f66c5f04c1ce8e5f
 
 build:
   number: 0
@@ -34,7 +34,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/googleapis/python-dataproc-metastore
+  home: https://github.com/googleapis/google-cloud-python
   summary: Google Cloud Dataproc Metastore API client library
   license: Apache-2.0
   license_file: LICENSE
