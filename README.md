@@ -3,7 +3,7 @@ About google-cloud-dataproc-metastore-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-dataproc-metastore-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/python-dataproc-metastore
+Home: https://github.com/googleapis/google-cloud-python
 
 Package license: Apache-2.0
 
