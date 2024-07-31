@@ -1,13 +1,13 @@
 {% set name = "google-cloud-dataproc-metastore" %}
-{% set version = "1.15.4" %}
+{% set version = "1.15.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-dataproc-metastore-{{ version }}.tar.gz
-  sha256: fa0da4fa17ca2dd5a3b3af554e1094fef5cc9ac3fdd60e286a5e3516b75e3cfd
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 21641ab5cd99f49e019c9f8b57c21b8512f64348e2b5ab0e09c75de29937e827
 
 build:
   number: 0
