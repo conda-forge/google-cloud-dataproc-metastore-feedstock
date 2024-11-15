@@ -9,7 +9,7 @@ Package license: Apache-2.0
 
 Summary: Google Cloud Dataproc Metastore API client library
 
-Development: https://github.com/googleapis/python-dataproc-metastore
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-dataproc-metastore
 
 Documentation: https://cloud.google.com/dataproc-metastore/docs
 
