@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-dataproc-metastore
-  version: "1.22.0"
+  version: "1.23.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_dataproc_metastore-${{ version }}.tar.gz
-  sha256: 09084b462c25a1384ca0d78095e91e0c3499c0bc7b63e7f6aee1597b0c397aba
+  sha256: 275899ea0137ab72993d283cd52a84a9d48f0c4851eb0b6589982f2d4d3dad4d
 
 build:
   number: 0
